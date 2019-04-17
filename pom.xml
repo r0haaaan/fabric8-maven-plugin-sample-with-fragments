@@ -105,7 +105,6 @@
 	      <exclude>fmp-ianaservice</exclude>
 	      <exclude>fmp-pod-annotation</exclude>
 	      <exclude>fmp-name</exclude>
-	      <exclude>fmp-service</exclude>
 	      <exclude>f8-maven-issue-mgmt</exclude>
 	      <exclude>wildfly-swarm-health-check</exclude>
 	      <exclude>karaf-health-check</exclude>
