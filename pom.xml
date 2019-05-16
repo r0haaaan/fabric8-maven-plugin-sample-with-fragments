@@ -34,10 +34,6 @@
 
   <name>Fabric8 Maven :: Sample :: Spring Boot Web</name>
   <description>Minimal Example with Spring Boot</description>
-  <properties>
-    <fabric8.openshift.enableAutomaticTrigger>false</fabric8.openshift.enableAutomaticTrigger>
-    <fabric8.openshift.enrichAllWithImageChangeTrigger>true</fabric8.openshift.enrichAllWithImageChangeTrigger>
-  </properties>
 
   <dependencies>
 
@@ -127,6 +123,9 @@
 	      <fmp-openshift-autotls>
 		<pemToJKSInitContainerImage>openshift/pemtokeystore:v0.2.0</pemToJKSInitContainerImage>
               </fmp-openshift-autotls>
+              <fmp-openshift-imageChangeTrigger>
+                <enrichAll>true</enrichAll>
+              </fmp-openshift-imageChangeTrigger>
             </config>
           </enricher>
         </configuration>
