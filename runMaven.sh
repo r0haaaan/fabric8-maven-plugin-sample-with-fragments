@@ -1,1 +1,1 @@
-mvn clean install fabric8:build fabric8:resource fabric8:deploy -Dfabric8.openshift.trimImageInContainerSpec="true" -Dfabric8.openshift.enableAutomaticTrigger="false" -Dfabric8.openshift.enrichAllWithImageChangeTrigger=true 
+mvn clean install fabric8:build fabric8:resource fabric8:deploy -Dfabric8.openshift.trimImageInContainerSpec="true" -Dfabric8.openshift.enableAutomaticTrigger="false" -Dfabric8.openshift.enrichAllWithImageChangeTrigger="true"
