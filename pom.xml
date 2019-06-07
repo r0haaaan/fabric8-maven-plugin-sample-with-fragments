@@ -80,16 +80,20 @@
               </all>
             </labels>
 	  </resources>
+
           <generator>
             <includes>
-              <include>java-exec</include>
+              <include>quarkus</include>
             </includes>
             <excludes>
+              <exclude>spring-boot</exclude>
+              <exclude>java-exec</exclude>
+              <exclude>thorntail-v2</exclude>
               <exclude>fmp-project</exclude>
               <exclude>wildfly-swarm</exclude>
               <exclude>vertx</exclude>
               <exclude>karaf</exclude>
-              <exclude>webapps</exclude>
+              <exclude>webapp</exclude>
             </excludes>
           </generator>
           <enricher>
